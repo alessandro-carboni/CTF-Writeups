@@ -210,7 +210,7 @@ This suggested:
 
 ## 7. Admin Token Forgery
 
-A custom Python script was used to:
+A custom Python script (`/Files/forge.py`) was used to:
 
 1. fetch the JWKS;
 2. create a JWT with `alg=none`;
